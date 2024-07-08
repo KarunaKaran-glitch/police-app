@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+
+        <ImageView
+            android:layout_width="81dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/police" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TN POLICE CITIZEN SERVICE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#2988D3"
+            android:layout_gravity="center"
+            android:text="VEHICLE STATUS"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="673dp"
+        android:layout_marginTop="290dp"
+
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="275dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/baseline_apps_24"
+                android:hint="Registration No" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="(OR)"
+            android:gravity="center"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="275dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:layout_gravity="center">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/baseline_directions_car_24"
+                android:hint="Chassis No" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:hint="(OR)"
+            android:gravity="center"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="275dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:layout_gravity="center">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/baseline_directions_car_24"
+                android:hint="Engine No"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/details"
+            android:layout_width="200dp"
+            android:layout_height="58dp"
+            android:text="Get Details"
+            android:textSize="22dp"
+            android:layout_marginTop="17dp"
+           android:background="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginBottom="300dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>

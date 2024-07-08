@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subject_array">
+        <item>Select Subject</item>
+        <item>PERSON MISSING</item>
+        <item>VEHICLE MISSING/THEFT</item>
+        <item>JEWEL SNATCHING/THEFT</item>
+        <item>BAG LIFTING/THEFT</item>
+        <item>OTHER THEFT</item>
+        <item>RECEIVING STOLEN PROPERTY</item>
+        <item>DOCUMENT MISSING</item>
+        <item>CHEATING/EMBEZZLEMENT/LAND GRABBING</item>
+        <item>MURDER</item>
+        <item>MAKING COUNTERFEIT NOTES/COINS </item>
+        <item>KIDNAPPING/WRONGFUL CONFINEMENT</item>
+        <item>HURT</item>
+        <item>DAMAGING PROPERTY</item>
+        <item>WORDY QUERREL/THREATENING</item>
+        <item>EXTORTION</item>
+        <item>PUBLIC NUSIANCE</item>
+        <item>EVE TEASING</item>
+        <item>OFFENCE RELATED TO MARRIAGE</item>
+        <item>RAPE</item>
+        <item>CYBER OFFENCES</item>
+        <item>TRAFFIC VIOLATION</item>
+        <item>OTHER OFFENCES</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="district_array">
+    <item>select your district</item>
+    <item>Ariyalur</item>
+    <item>Chengalpattu</item>
+    <item>Chennai</item>
+    <item>Coimbatore</item>
+    <item>Cuddalore</item>
+    <item>Dharmapuri</item>
+    <item>Dindigul</item>
+    <item>Erode</item>
+    <item>Kallakurichi</item>
+    <item>Kancheepuram</item>
+    <item>Karur</item>
+    <item>Krishnagiri</item>
+    <item>Madurai</item>
+    <item>Mayiladuthurai</item>
+    <item>Nagapattinam</item>
+    <item>Namakkal</item>
+    <item>Nilgiris</item>
+    <item>Perambalur</item>
+    <item>Pudukkottai</item>
+    <item>Ramanathapuram</item>
+    <item>Ranipet</item>
+    <item>Salem</item>
+    <item>Sivaganga</item>
+    <item>Tenkasi</item>
+    <item>Thanjavur</item>
+    <item>Theni</item>
+    <item>Thiruvallur</item>
+    <item>Thiruvarur</item>
+    <item>Thoothukudi</item>
+    <item>Tiruchirappalli</item>
+    <item>Tirunelveli</item>
+    <item>Tirupathur</item>
+    <item>Tiruppur</item>
+    <item>Tiruvannamalai</item>
+    <item>Vellore</item>
+    <item>Viluppuram</item>
+    <item>Virudhunagar</item>
+    </string-array>
+    <string-array name="default_village_array">
+        <item>selected your village</item>
+    </string-array>
+    <string-array name="district1_villages_array">
+        <item><item>Anantapur</item><item>Chittoor</item><item>East Godavari</item><item>Guntur</item><item>Kadapa</item><item>Krishna</item>
+        <item>Kurnool</item><item>Nellore</item><item>Prakasam</item><item>Srikakulam</item><item>Visakhapatnam</item><item>Vizianagaram</item><item>West Godavari</item></item>
+    </string-array>
+</resources>

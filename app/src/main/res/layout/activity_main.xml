@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="81dp"
+            android:layout_height="74dp"
+            android:layout_gravity="center"
+            android:background="@drawable/police" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="TN POLICE CITIZEN SERVICE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="#A9FFFFFF"
+        android:backgroundTintMode="screen"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/material_dynamic_neutral95"
+            android:drawableLeft="@drawable/first"
+            android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"
+            android:text="COMPLIANT REGISTRATION"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"
+            android:background="@color/material_dynamic_neutral95"
+            android:drawableLeft="@drawable/second"
+            android:text="COMPLIANT STATUS"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:drawableLeft="@drawable/third"
+            android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"
+            android:background="@color/material_dynamic_neutral95"
+            android:text="FIR STATUS"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"
+            android:layout_marginTop="11dp"
+            android:drawableLeft="@drawable/four"
+            android:background="@color/material_dynamic_neutral95"
+            android:text="CSR STATUS"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"
+            android:background="@color/material_dynamic_neutral95"
+            android:text="VEHICLE STATUS"
+            android:drawableLeft="@drawable/five"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"
+            android:layout_marginTop="11dp"
+            android:background="@color/material_dynamic_neutral95"
+            android:text="DETAILS OF PERSON ARRESTED"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/six"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

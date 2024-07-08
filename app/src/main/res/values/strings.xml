@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TN POLICE</string>
+    <string name="subject">subject</string>
+    <string name="gender">gender</string>
+    <string name="district">district</string>
+
+
+</resources>
